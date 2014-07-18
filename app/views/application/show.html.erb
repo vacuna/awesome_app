@@ -4,6 +4,7 @@
   <div class="carl-sagan">
     <h2><%= @user.name %><small>Member since 1982</small></h2>
     <p><%= @user.bio %></p>
+     <a href="/user/<%= @user.id %>/edit">edit</a>
     <h3>Location: <small><%= @user.city %></small></h3>
     <h4>Completion:</h4>
     <div class="progress">
